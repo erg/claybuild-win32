@@ -1,0 +1,52 @@
+[  4%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/analyzer.cpp.obj
+[0manalyzer.cpp
+[  8%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/clone.cpp.obj
+[0mclone.cpp
+[ 12%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/codegen.cpp.obj
+[0mcodegen.cpp
+[ 16%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/constructors.cpp.obj
+[0mconstructors.cpp
+[ 20%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/desugar.cpp.obj
+[0mdesugar.cpp
+[ 25%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/env.cpp.obj
+[0menv.cpp
+[ 29%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/error.cpp.obj
+[0merror.cpp
+[ 33%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/evaluator.cpp.obj
+[0mevaluator.cpp
+[ 37%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/externals.cpp.obj
+[0mexternals.cpp
+[ 41%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/hirestimer.cpp.obj
+[0mhirestimer.cpp
+[ 45%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/invoketables.cpp.obj
+[0minvoketables.cpp
+[ 50%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/lambdas.cpp.obj
+[0mlambdas.cpp
+[ 54%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/lexer.cpp.obj
+[0mlexer.cpp
+[ 58%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/literals.cpp.obj
+[0mliterals.cpp
+[ 62%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/loader.cpp.obj
+[0mloader.cpp
+[ 66%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/main.cpp.obj
+[0mmain.cpp
+[ 70%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/matchinvoke.cpp.obj
+[0mmatchinvoke.cpp
+[ 75%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/objects.cpp.obj
+[0mobjects.cpp
+C:\clay-autobuild\compiler\src\objects.cpp(101) : warning C4018: '<' : signed/unsigned mismatch
+[ 79%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/parachute.cpp.obj
+[0mparachute.cpp
+[ 83%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/parser.cpp.obj
+[0mparser.cpp
+[ 87%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/patterns.cpp.obj
+[0mpatterns.cpp
+[ 91%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/printer.cpp.obj
+[0mprinter.cpp
+[ 95%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/profiler.cpp.obj
+[0mprofiler.cpp
+[100%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/types.cpp.obj
+[0mtypes.cpp
+[31m[1mLinking CXX executable clay.exe
+[0m   Creating library clay.lib and object clay.exp
+[100%] Built target clay
