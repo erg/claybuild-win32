@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@9b1c404fbef365840c9bb36c99dee59f0bc3c0fd (2012-05-04 18:06:51 -0700)
+version: jckarter/clay@eade4bb9e6caa55c3be86a18801fddee1b18ca6b (2012-06-28 10:25:02 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -120,7 +120,7 @@ llvm\3: ok
 llvm\4: ok
 llvm\intrinsics\sse\1: ok
 math\complex: ok
-math\libm: ok
+math\libm: compiler error
 math\native: ok
 memory\allocateArray: ok
 memory\copy: ok
@@ -228,6 +228,7 @@ shootout\quicksort1: ok
 shootout\quicksort2: ok
 simd: ok
 simd\invalidtypes: ok
+simd\optimizationbug1: ok
 statementexpressions\if\1: ok
 statementexpressions\if\2: ok
 statementexpressions\switch\1: ok
@@ -311,10 +312,14 @@ variants\recursive\2: ok
 variants\subgraphassignment: ok
 variants\variantref: ok
 
+[Failed]
+math\libm: compiler error
+
 [Summary]
 Passed: 290
 Disabled: 4
+Failed: 1
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 893.555000
+time-taken-seconds: 215.809000
