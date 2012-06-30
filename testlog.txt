@@ -3,8 +3,8 @@
 Failure: compiler error
 Error:
  LINK : warning LNK4044: unrecognized option '/lm'; ignored
- clayobj-aa42bc29.obj : error LNK2019: unresolved external symbol _sqrtf referenced in function _math.libm.sqrt(Float32) Float32 clay
- clayobj-aa42bc29.obj : error LNK2019: unresolved external symbol _floorf referenced in function _math.libm.floor(Float32) Float32 clay
+ clayobj-32d586f9.obj : error LNK2019: unresolved external symbol _sqrtf referenced in function _math.libm.sqrt(Float32) Float32 clay
+ clayobj-32d586f9.obj : error LNK2019: unresolved external symbol _floorf referenced in function _math.libm.floor(Float32) Float32 clay
  test.exe : fatal error LNK1120: 2 unresolved externals
  
  clang: error: linker command failed with exit code 1120 (use -v to see invocation) [err_drv_command_failed]
