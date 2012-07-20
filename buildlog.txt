@@ -1,3 +1,7 @@
+-- Could NOT find Subversion (missing:  Subversion_SVN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/clay-autobuild/build
 [  4%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/analyzer.cpp.obj
 [0manalyzer.cpp
 [  8%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/clone.cpp.obj
