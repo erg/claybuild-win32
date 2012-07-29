@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@89c873567d986bf12cba9f498de3ba8a01325272 (2012-07-21 16:51:14 -0700)
+version: jckarter/clay@5acc635e6646832319911b199788bb8957649d7c (2012-07-29 08:26:27 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -183,6 +183,7 @@ paged\37: ok
 paged\38: ok
 parsing: ok
 parsing\calculator: ok
+parsing\combinators\generic: ok
 patterns: ok
 permissive: ok
 platform: ok
@@ -314,9 +315,9 @@ variants\subgraphassignment: ok
 variants\variantref: ok
 
 [Summary]
-Passed: 292
+Passed: 293
 Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 193.468000
+time-taken-seconds: 199.847000
