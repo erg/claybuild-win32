@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@ec0c7154ca28c87fd50921d43d8de32e41e479de (2012-08-06 10:20:19 -0700)
+version: jckarter/clay@0dd1b68930d1d84a0af2bb0a258a2093403bc04e (2012-08-06 11:36:24 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -225,7 +225,7 @@ sequences\predicates: ok
 sequences\ranges: ok
 sequences\staticsized: ok
 sequences\strict: ok
-sha2: ok
+sha2: compiler error
 shootout\insertionsort1: ok
 shootout\insertionsort2: ok
 shootout\mean: ok
@@ -318,10 +318,14 @@ variants\recursive\2: ok
 variants\subgraphassignment: ok
 variants\variantref: ok
 
+[Failed]
+sha2: compiler error
+
 [Summary]
-Passed: 297
+Passed: 296
 Disabled: 4
+Failed: 1
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 452.991000
+time-taken-seconds: 443.076000
