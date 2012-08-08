@@ -1,5 +1,5 @@
 
-[sha2]
+[crypto\digest\sha2]
 Failure: compiler error
 Error:
  
@@ -38,43 +38,47 @@ Error:
          pattern "T" did not match type "UInt64" of argument 2
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(227,0)
          pattern "T" did not match type "UInt64" of argument 2
-     88 universal overloads not shown (show with -full-match-errors option)
+     89 universal overloads not shown (show with -full-match-errors option)
  
  compilation context: 
      assign(UInt32, UInt64)
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(234,4):
      updateAssign(Static[-], UInt32, UInt64)
-   C:/clay-autobuild/build/compiler/src\../../../lib-clay\sha2\sha2.clay(134,8):
-     sha256Update(SHA256Context, Static["swordfish"])
-   C:/clay-autobuild/build/compiler/src\../../../lib-clay\sha2\sha2.clay(179,16):
-     sha256(Static["swordfish"])
-   C:\clay-autobuild\test\sha2\test.clay(10,22):
-     expectPrinted(TestStatus, Static["SHA-256"], Static["B9F195C5CC7EF6AFADBFBC42892AD47D3B24C6BC94BB510C4564A90A14E8B799"], SHA256)
-   C:\clay-autobuild\test\sha2\test.clay(8,25):
-     <lambda C:\clay-autobuild\test\sha2\test.clay(7,27)>(TestStatus)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\sha2\sha2.clay(140,8):
+     digestUpdate(SHA256Context, Static["swordfish"])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\sha2\sha2.clay(300,16):
+     digest(Static["swordfish"], Static["SHA-256"])
+   C:\clay-autobuild\test\crypto\digest\sha2\test.clay(9,14):
+     expectPrinted(TestStatus, Vector[Char], Static["B9F195C5CC7EF6AFADBFBC42892AD47D3B24C6BC94BB510C4564A90A14E8B799"], SHA256)
+   C:\clay-autobuild\test\crypto\digest\sha2\test.clay(7,17):
+     expectDigest(TestStatus, Static["SHA-256"], Static["B9F195C5CC7EF6AFADBFBC42892AD47D3B24C6BC94BB510C4564A90A14E8B799"], Static["swordfish"])
+   C:\clay-autobuild\test\crypto\digest\sha2\test.clay(13,18):
+     expectSha256(TestStatus, Static["B9F195C5CC7EF6AFADBFBC42892AD47D3B24C6BC94BB510C4564A90A14E8B799"], Static["swordfish"])
+   C:\clay-autobuild\test\crypto\digest\sha2\test.clay(21,24):
+     <lambda C:\clay-autobuild\test\crypto\digest\sha2\test.clay(20,27)>(TestStatus)
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\statics\statics.clay(53,15):
-     call(Static[<lambda C:\clay-autobuild\test\sha2\test.clay(7,27)>], TestStatus)
+     call(Static[<lambda C:\clay-autobuild\test\crypto\digest\sha2\test.clay(20,27)>], TestStatus)
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(83,33):
-     FunctionBody[[TestStatus], []](Static[<lambda C:\clay-autobuild\test\sha2\test.clay(7,27)>])
+     FunctionBody[[TestStatus], []](Static[<lambda C:\clay-autobuild\test\crypto\digest\sha2\test.clay(20,27)>])
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,52):
      new(FunctionBody[[TestStatus], []])
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,31):
      Function[[TestStatus], []](SharedPointer[FunctionBody[[TestStatus], []]])
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,27):
-     Function[[TestStatus], []](Static[<lambda C:\clay-autobuild\test\sha2\test.clay(7,27)>])
+     Function[[TestStatus], []](Static[<lambda C:\clay-autobuild\test\crypto\digest\sha2\test.clay(20,27)>])
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\test\test.clay(29,71):
      TestCase(Static["sha256"], Function[[TestStatus], []], Bool)
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\test\test.clay(29,38):
-     TestCase(Static["sha256"], Static[<lambda C:\clay-autobuild\test\sha2\test.clay(7,27)>])
-   C:\clay-autobuild\test\sha2\test.clay(7,16):
-     Array[TestCase, 2](TestCase, TestCase)
+     TestCase(Static["sha256"], Static[<lambda C:\clay-autobuild\test\crypto\digest\sha2\test.clay(20,27)>])
+   C:\clay-autobuild\test\crypto\digest\sha2\test.clay(20,16):
+     Array[TestCase, 5](TestCase, TestCase, TestCase, TestCase, TestCase)
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(205,55):
-     array(TestCase, TestCase)
-   C:\clay-autobuild\test\sha2\test.clay(6,27):
-     TestSuite(Static["sha2"], Array[TestCase, 2])
-   C:\clay-autobuild\test\sha2\test.clay(6,13):
+     array(TestCase, TestCase, TestCase, TestCase, TestCase)
+   C:\clay-autobuild\test\crypto\digest\sha2\test.clay(19,27):
+     TestSuite(Static["sha2"], Array[TestCase, 5])
+   C:\clay-autobuild\test\crypto\digest\sha2\test.clay(19,13):
      testMain(TestSuite)
-   C:\clay-autobuild\test\sha2\test.clay(5,17):
+   C:\clay-autobuild\test\crypto\digest\sha2\test.clay(18,17):
      main()
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(22,30):
      getExitCode(Int32)
