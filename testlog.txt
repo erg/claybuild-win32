@@ -49,11 +49,11 @@ Error:
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\sha2\sha2.clay(300,16):
      digest(Static["swordfish"], Static["SHA-256"])
    C:\clay-autobuild\test\crypto\digest\sha2\test.clay(9,14):
-     expectPrinted(TestStatus, Vector[Char], Static["B9F195C5CC7EF6AFADBFBC42892AD47D3B24C6BC94BB510C4564A90A14E8B799"], SHA256)
+     expectPrinted(TestStatus, Vector[Char], Static["b9f195c5cc7ef6afadbfbc42892ad47d3b24c6bc94bb510c4564a90a14e8b799"], SHA256)
    C:\clay-autobuild\test\crypto\digest\sha2\test.clay(7,17):
-     expectDigest(TestStatus, Static["SHA-256"], Static["B9F195C5CC7EF6AFADBFBC42892AD47D3B24C6BC94BB510C4564A90A14E8B799"], Static["swordfish"])
+     expectDigest(TestStatus, Static["SHA-256"], Static["b9f195c5cc7ef6afadbfbc42892ad47d3b24c6bc94bb510c4564a90a14e8b799"], Static["swordfish"])
    C:\clay-autobuild\test\crypto\digest\sha2\test.clay(13,18):
-     expectSha256(TestStatus, Static["B9F195C5CC7EF6AFADBFBC42892AD47D3B24C6BC94BB510C4564A90A14E8B799"], Static["swordfish"])
+     expectSha256(TestStatus, Static["b9f195c5cc7ef6afadbfbc42892ad47d3b24c6bc94bb510c4564a90a14e8b799"], Static["swordfish"])
    C:\clay-autobuild\test\crypto\digest\sha2\test.clay(21,24):
      <lambda C:\clay-autobuild\test\crypto\digest\sha2\test.clay(20,27)>(TestStatus)
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\statics\statics.clay(53,15):
