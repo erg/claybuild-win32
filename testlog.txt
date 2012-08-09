@@ -26,9 +26,9 @@ Error:
          pattern "Array[T,n]" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\variants\variants.clay(103,0)
          pattern "V" did not match type "UInt64" of argument 2
-     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\numbers\numbers.clay(144,0)
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\numbers\numbers.clay(188,0)
          predicate "Integer?(A,B) and (TypeSize(A) == TypeSize(B))" failed
-     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\numbers\numbers.clay(139,0)
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\numbers\numbers.clay(183,0)
          predicate "Numeric?(A,B) and BiggerNumeric?(A,B)" failed
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\pod\pod.clay(92,0)
          pattern "P" did not match type "UInt64" of argument 2
