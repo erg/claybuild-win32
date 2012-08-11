@@ -1,5 +1,5 @@
 
-[crypto\digest\sha2]
+[crypto\digest\md5]
 Failure: compiler error
 Error:
  
@@ -12,6 +12,8 @@ Error:
  
  ###############################
  C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(234,4): error: no matching overload found
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\internal\internal.clay(151,0)
+         pattern "PoorManUInt128" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\referencetypes\referencetypes.clay(156,0)
          pattern "T" did not match type "UInt64" of argument 2
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\sharedpointers\sharedpointers.clay(61,0)
@@ -44,9 +46,100 @@ Error:
      assign(UInt32, UInt64)
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(234,4):
      updateAssign(Static[-], UInt32, UInt64)
-   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\sha2\sha2.clay(140,8):
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\digest.clay(67,8):
+     digestUpdate(MD5Context, Static[""])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\digest.clay(93,16):
+     digest(Static[""], Static["MD5"])
+   C:\clay-autobuild\test\crypto\digest\md5\test.clay(9,14):
+     expectPrinted(TestStatus, Vector[Char], Static["d41d8cd98f00b204e9800998ecf8427e"], MD5)
+   C:\clay-autobuild\test\crypto\digest\md5\test.clay(7,17):
+     expectDigest(TestStatus, Static["MD5"], Static["d41d8cd98f00b204e9800998ecf8427e"], Static[""])
+   C:\clay-autobuild\test\crypto\digest\md5\test.clay(13,18):
+     expectMd5(TestStatus, Static["d41d8cd98f00b204e9800998ecf8427e"], Static[""])
+   C:\clay-autobuild\test\crypto\digest\md5\test.clay(18,21):
+     <lambda C:\clay-autobuild\test\crypto\digest\md5\test.clay(17,24)>(TestStatus)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\statics\statics.clay(53,15):
+     call(Static[<lambda C:\clay-autobuild\test\crypto\digest\md5\test.clay(17,24)>], TestStatus)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(83,33):
+     FunctionBody[[TestStatus], []](Static[<lambda C:\clay-autobuild\test\crypto\digest\md5\test.clay(17,24)>])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,52):
+     new(FunctionBody[[TestStatus], []])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,31):
+     Function[[TestStatus], []](SharedPointer[FunctionBody[[TestStatus], []]])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,27):
+     Function[[TestStatus], []](Static[<lambda C:\clay-autobuild\test\crypto\digest\md5\test.clay(17,24)>])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\test\test.clay(29,71):
+     TestCase(Static["md5"], Function[[TestStatus], []], Bool)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\test\test.clay(29,38):
+     TestCase(Static["md5"], Static[<lambda C:\clay-autobuild\test\crypto\digest\md5\test.clay(17,24)>])
+   C:\clay-autobuild\test\crypto\digest\md5\test.clay(17,16):
+     Array[TestCase, 1](TestCase)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(205,55):
+     array(TestCase)
+   C:\clay-autobuild\test\crypto\digest\md5\test.clay(16,26):
+     TestSuite(Static["md5"], Array[TestCase, 1])
+   C:\clay-autobuild\test\crypto\digest\md5\test.clay(16,13):
+     testMain(TestSuite)
+   C:\clay-autobuild\test\crypto\digest\md5\test.clay(15,17):
+     main()
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(22,30):
+     getExitCode(Int32)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(22,26):
+     runMain(Int32, Pointer[Pointer[Int8]], Static[main])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(32,13):
+     callMain(Static[main], Int32, Pointer[Pointer[Int8]])
+     external main
+
+[crypto\digest\sha2]
+Failure: compiler error
+Error:
+ 
+ ###############################
+ [F]
+ forceinline overload updateAssign(#F, ref dest, forward ..src) {
+     dest = infixOperator(dest,F, ..src);
+ ----^
+ }
+ 
+ ###############################
+ C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(234,4): error: no matching overload found
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\internal\internal.clay(151,0)
+         pattern "PoorManUInt128" did not match type "UInt32" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\referencetypes\referencetypes.clay(156,0)
+         pattern "T" did not match type "UInt64" of argument 2
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\sharedpointers\sharedpointers.clay(61,0)
+         pattern "SharedPointer[T]" did not match type "UInt32" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\simd\simd.clay(66,0)
+         pattern "Vec[T,n]" did not match type "UInt32" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\vectors\vectors.clay(74,0)
+         pattern "Vector[T]" did not match type "UInt32" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(228,0)
+         pattern "Array[T,n]" did not match type "UInt32" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(223,0)
+         pattern "Array[T,n]" did not match type "UInt32" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\variants\variants.clay(103,0)
+         pattern "V" did not match type "UInt64" of argument 2
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\numbers\numbers.clay(188,0)
+         predicate "Integer?(A,B) and (TypeSize(A) == TypeSize(B))" failed
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\numbers\numbers.clay(183,0)
+         predicate "Numeric?(A,B) and BiggerNumeric?(A,B)" failed
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\pod\pod.clay(92,0)
+         pattern "P" did not match type "UInt64" of argument 2
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\tuples\tuples.clay(116,0)
+         pattern "Tuple[..T]" did not match type "UInt32" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\records\records.clay(138,0)
+         pattern "T" did not match type "UInt64" of argument 2
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(227,0)
+         pattern "T" did not match type "UInt64" of argument 2
+     89 universal overloads not shown (show with -full-match-errors option)
+ 
+ compilation context: 
+     assign(UInt32, UInt64)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(234,4):
+     updateAssign(Static[-], UInt32, UInt64)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\digest.clay(67,8):
      digestUpdate(SHA256Context, Static["swordfish"])
-   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\sha2\sha2.clay(300,16):
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\digest.clay(93,16):
      digest(Static["swordfish"], Static["SHA-256"])
    C:\clay-autobuild\test\crypto\digest\sha2\test.clay(9,14):
      expectPrinted(TestStatus, Vector[Char], Static["b9f195c5cc7ef6afadbfbc42892ad47d3b24c6bc94bb510c4564a90a14e8b799"], SHA256)
