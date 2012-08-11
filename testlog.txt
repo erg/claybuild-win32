@@ -20,9 +20,9 @@ Error:
          pattern "Vec[T,n]" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\vectors\vectors.clay(74,0)
          pattern "Vector[T]" did not match type "UInt32" of argument 1
-     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(234,0)
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(228,0)
          pattern "Array[T,n]" did not match type "UInt32" of argument 1
-     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(229,0)
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(223,0)
          pattern "Array[T,n]" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\variants\variants.clay(103,0)
          pattern "V" did not match type "UInt64" of argument 2
