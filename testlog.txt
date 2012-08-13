@@ -12,7 +12,7 @@ Error:
  
  ###############################
  C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(234,4): error: no matching overload found
-     C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\internal\internal.clay(151,0)
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\internal\internal.clay(149,0)
          pattern "PoorManUInt128" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\referencetypes\referencetypes.clay(156,0)
          pattern "T" did not match type "UInt64" of argument 2
@@ -46,9 +46,9 @@ Error:
      assign(UInt32, UInt64)
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(234,4):
      updateAssign(Static[-], UInt32, UInt64)
-   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\digest.clay(67,8):
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\digest.clay(75,8):
      digestUpdate(MD5Context, Static[""])
-   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\digest.clay(93,16):
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\digest.clay(101,16):
      digest(Static[""], Static["MD5"])
    C:\clay-autobuild\test\crypto\digest\md5\test.clay(9,14):
      expectPrinted(TestStatus, Vector[Char], Static["d41d8cd98f00b204e9800998ecf8427e"], MD5)
@@ -103,7 +103,7 @@ Error:
  
  ###############################
  C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(234,4): error: no matching overload found
-     C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\internal\internal.clay(151,0)
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\internal\internal.clay(149,0)
          pattern "PoorManUInt128" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\referencetypes\referencetypes.clay(156,0)
          pattern "T" did not match type "UInt64" of argument 2
@@ -137,9 +137,9 @@ Error:
      assign(UInt32, UInt64)
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(234,4):
      updateAssign(Static[-], UInt32, UInt64)
-   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\digest.clay(67,8):
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\digest.clay(75,8):
      digestUpdate(SHA256Context, Static["swordfish"])
-   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\digest.clay(93,16):
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\digest.clay(101,16):
      digest(Static["swordfish"], Static["SHA-256"])
    C:\clay-autobuild\test\crypto\digest\sha2\test.clay(9,14):
      expectPrinted(TestStatus, Vector[Char], Static["b9f195c5cc7ef6afadbfbc42892ad47d3b24c6bc94bb510c4564a90a14e8b799"], SHA256)
