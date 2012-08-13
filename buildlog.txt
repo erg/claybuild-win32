@@ -5,11 +5,12 @@
 [ 12%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/codegen.cpp.obj
 [0mcodegen.cpp
 C:\clay-autobuild\compiler\src\codegen.cpp(1600) : warning C4800: 'llvm::Function *' : forcing value to bool 'true' or 'false' (performance warning)
-C:\clay-autobuild\compiler\src\codegen.cpp(2912) : warning C4800: 'llvm::Function *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\src\codegen.cpp(2913) : warning C4800: 'llvm::Function *' : forcing value to bool 'true' or 'false' (performance warning)
 [ 16%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/constructors.cpp.obj
 [0mconstructors.cpp
 [ 20%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/desugar.cpp.obj
 [0mdesugar.cpp
+C:\clay-autobuild\compiler\src\desugar.cpp(75) : warning C4018: '<' : signed/unsigned mismatch
 [ 25%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/env.cpp.obj
 [0menv.cpp
 [ 29%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/error.cpp.obj
