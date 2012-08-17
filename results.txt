@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@88c16067990f863ad3de30c3dda022231f1ba768 (2012-08-17 09:07:41 -0700)
+version: jckarter/clay@e9927b797453ea1981e0642db51a2456ff70ef2b (2012-08-17 09:11:45 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -108,6 +108,7 @@ io\sockets\addresses: ok
 io\sockets\connections: ok
 io\sockets\reading: ok
 io\sockets\valuesemantics: ok
+io\temp: ok
 keywordarguments: ok
 lambdas\alias\1: disabled
 lambdas\alias\2: disabled
@@ -335,10 +336,10 @@ crypto\digest\md5: compiler error
 crypto\digest\sha2: compiler error
 
 [Summary]
-Passed: 307
+Passed: 308
 Disabled: 4
 Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 243.510000
+time-taken-seconds: 663.885000
