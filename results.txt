@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@650f111e5bdf50a175734824a5c8f01b3223b9e3 (2012-08-17 08:54:18 -0700)
+version: jckarter/clay@88c16067990f863ad3de30c3dda022231f1ba768 (2012-08-17 09:07:41 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -47,6 +47,8 @@ computedrecords\2: ok
 computedrecords\custompredicate: ok
 computedrecords\customproperty: ok
 coordinates: ok
+core\errors\staticassert\neg: ok
+core\errors\staticassert\pos: ok
 crypto\digest\md5: compiler error
 crypto\digest\sha2: compiler error
 defaultarguments: ok
@@ -196,6 +198,7 @@ parsing\calculator: ok
 parsing\combinators\generic: ok
 parsing\combinators\strings: ok
 patterns: ok
+patterns\arguments: ok
 permissive: ok
 platform: ok
 pointers\indexing\1: ok
@@ -332,10 +335,10 @@ crypto\digest\md5: compiler error
 crypto\digest\sha2: compiler error
 
 [Summary]
-Passed: 304
+Passed: 307
 Disabled: 4
 Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 225.995000
+time-taken-seconds: 243.510000
