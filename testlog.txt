@@ -12,16 +12,22 @@ Error:
  
  ###############################
  C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(234,4): error: no matching overload found
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\hashmaps\hashmaps.clay(175,0)
+         pattern "HashMap[K,V]" did not match type "UInt32" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\uniquepointers\uniquepointers.clay(89,0)
+         pattern "UniqueValue[T]" did not match type "UInt32" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\uniquepointers\uniquepointers.clay(44,0)
+         pattern "UniquePointer[T]" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\internal\internal.clay(149,0)
          pattern "PoorManUInt128" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\referencetypes\referencetypes.clay(156,0)
          pattern "T" did not match type "UInt64" of argument 2
-     C:/clay-autobuild/build/compiler/src\../../../lib-clay\sharedpointers\sharedpointers.clay(61,0)
-         pattern "SharedPointer[T]" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\simd\simd.clay(66,0)
          pattern "Vec[T,n]" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\vectors\vectors.clay(74,0)
          pattern "Vector[T]" did not match type "UInt32" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\sharedpointers\sharedpointers.clay(61,0)
+         pattern "SharedPointer[T]" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(228,0)
          pattern "Array[T,n]" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(223,0)
@@ -40,7 +46,7 @@ Error:
          pattern "T" did not match type "UInt64" of argument 2
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(227,0)
          pattern "T" did not match type "UInt64" of argument 2
-     89 universal overloads not shown (show with -full-match-errors option)
+     93 universal overloads not shown (show with -full-match-errors option)
  
  compilation context: 
      assign(UInt32, UInt64)
@@ -103,14 +109,20 @@ Error:
  
  ###############################
  C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(234,4): error: no matching overload found
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\hashmaps\hashmaps.clay(175,0)
+         pattern "HashMap[K,V]" did not match type "UInt32" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\uniquepointers\uniquepointers.clay(89,0)
+         pattern "UniqueValue[T]" did not match type "UInt32" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\uniquepointers\uniquepointers.clay(44,0)
+         pattern "UniquePointer[T]" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\crypto\digest\internal\internal.clay(149,0)
          pattern "PoorManUInt128" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\referencetypes\referencetypes.clay(156,0)
          pattern "T" did not match type "UInt64" of argument 2
-     C:/clay-autobuild/build/compiler/src\../../../lib-clay\sharedpointers\sharedpointers.clay(61,0)
-         pattern "SharedPointer[T]" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\simd\simd.clay(66,0)
          pattern "Vec[T,n]" did not match type "UInt32" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\sharedpointers\sharedpointers.clay(61,0)
+         pattern "SharedPointer[T]" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\vectors\vectors.clay(74,0)
          pattern "Vector[T]" did not match type "UInt32" of argument 1
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(228,0)
@@ -131,7 +143,7 @@ Error:
          pattern "T" did not match type "UInt64" of argument 2
      C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\operators\operators.clay(227,0)
          pattern "T" did not match type "UInt64" of argument 2
-     89 universal overloads not shown (show with -full-match-errors option)
+     93 universal overloads not shown (show with -full-match-errors option)
  
  compilation context: 
      assign(UInt32, UInt64)
@@ -172,6 +184,59 @@ Error:
    C:\clay-autobuild\test\crypto\digest\sha2\test.clay(19,13):
      testMain(TestSuite)
    C:\clay-autobuild\test\crypto\digest\sha2\test.clay(18,17):
+     main()
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(22,30):
+     getExitCode(Int32)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(22,26):
+     runMain(Int32, Pointer[Pointer[Int8]], Static[main])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(32,13):
+     callMain(Static[main], Int32, Pointer[Pointer[Int8]])
+     external main
+
+[printing\repr]
+Failure: compiler error
+Error:
+ 
+ ###############################
+ CStringRef("string ref")
+ ----------^
+ ###############################
+ <eval C:\clay-autobuild\test\printing\repr\test.clay(14,41)>(1,10): error: no matching overload found
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\strings\strings.clay(78,0)
+         pattern "String" did not match type "Static["string ref"]" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\cstringrefs\cstringrefs.clay(18,0)
+         pattern "Pointer[T]" did not match type "Static["string ref"]" of argument 1
+     92 universal overloads not shown (show with -full-match-errors option)
+ 
+ compilation context: 
+     CStringRef(Static["string ref"])
+   <eval C:\clay-autobuild\test\printing\repr\test.clay(14,41)>(1,10):
+     testWithEval(TestStatus, Static["CStringRef(\"string ref\")"])
+   C:\clay-autobuild\test\printing\repr\test.clay(116,24):
+     <lambda C:\clay-autobuild\test\printing\repr\test.clay(112,28)>(TestStatus)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\statics\statics.clay(53,15):
+     call(Static[<lambda C:\clay-autobuild\test\printing\repr\test.clay(112,28)>], TestStatus)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(83,33):
+     FunctionBody[[TestStatus], []](Static[<lambda C:\clay-autobuild\test\printing\repr\test.clay(112,28)>])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,52):
+     new(FunctionBody[[TestStatus], []])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,31):
+     Function[[TestStatus], []](SharedPointer[FunctionBody[[TestStatus], []]])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,27):
+     Function[[TestStatus], []](Static[<lambda C:\clay-autobuild\test\printing\repr\test.clay(112,28)>])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\test\test.clay(29,71):
+     TestCase(Static["strings"], Function[[TestStatus], []], Bool)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\test\test.clay(29,38):
+     TestCase(Static["strings"], Static[<lambda C:\clay-autobuild\test\printing\repr\test.clay(112,28)>])
+   C:\clay-autobuild\test\printing\repr\test.clay(112,16):
+     Array[TestCase, 7](TestCase, TestCase, TestCase, TestCase, TestCase, TestCase, TestCase)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(205,55):
+     array(TestCase, TestCase, TestCase, TestCase, TestCase, TestCase, TestCase)
+   C:\clay-autobuild\test\printing\repr\test.clay(18,27):
+     TestSuite(Static["repr"], Array[TestCase, 7])
+   C:\clay-autobuild\test\printing\repr\test.clay(18,13):
+     testMain(TestSuite)
+   C:\clay-autobuild\test\printing\repr\test.clay(17,17):
      main()
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(22,30):
      getExitCode(Int32)
