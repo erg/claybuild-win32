@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@a6fe6355627ba850161da70cbb3095d4d3ad1cc5 (2012-08-18 13:51:56 -0700)
+version: jckarter/clay@0892d3c2a23147e330219f48d6441bf619cb27e4 (2012-08-18 14:59:37 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -349,4 +349,4 @@ Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 267.765000
+time-taken-seconds: 267.254000
