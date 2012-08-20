@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@0892d3c2a23147e330219f48d6441bf619cb27e4 (2012-08-18 14:59:37 -0700)
+version: jckarter/clay@21c64c4eec465da26b25b80808b54e7bb7786fcb (2012-08-19 09:15:24 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -49,8 +49,8 @@ computedrecords\customproperty: ok
 coordinates: ok
 core\errors\staticassert\neg: ok
 core\errors\staticassert\pos: ok
-crypto\digest\md5: compiler error
-crypto\digest\sha2: compiler error
+crypto\digest\md5: exit code 3
+crypto\digest\sha2: exit code 3
 defaultarguments: ok
 deques: ok
 deques\memory: ok
@@ -339,8 +339,8 @@ variants\subgraphassignment: ok
 variants\variantref: ok
 
 [Failed]
-crypto\digest\md5: compiler error
-crypto\digest\sha2: compiler error
+crypto\digest\md5: exit code 3
+crypto\digest\sha2: exit code 3
 
 [Summary]
 Passed: 315
@@ -349,4 +349,4 @@ Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 267.254000
+time-taken-seconds: 87312.196000
