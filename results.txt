@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@21c64c4eec465da26b25b80808b54e7bb7786fcb (2012-08-19 09:15:24 -0700)
+version: jckarter/clay@30190f4c9f2b5ec8784589fabacc140d55c543ab (2012-08-20 07:12:32 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -15,6 +15,9 @@ platform: windows
 cpu: x86
 bits: 32
 
+[Compiler]
+exe: C:\clay-autobuild\test\..\build\compiler\src\clay.exe
+
 [Tests]
 algorithms: ok
 algorithms\count: ok
@@ -23,6 +26,7 @@ algorithms\sorting: ok
 algorithms\strings: ok
 any: ok
 arrays: ok
+arrays\arrayref: ok
 arrays\indexing\1: ok
 atomic\primitives: ok
 bindings\ref\1: ok
@@ -49,6 +53,7 @@ computedrecords\customproperty: ok
 coordinates: ok
 core\errors\staticassert\neg: ok
 core\errors\staticassert\pos: ok
+core\stringrefs: ok
 crypto\digest\md5: exit code 3
 crypto\digest\sha2: exit code 3
 defaultarguments: ok
@@ -343,10 +348,10 @@ crypto\digest\md5: exit code 3
 crypto\digest\sha2: exit code 3
 
 [Summary]
-Passed: 315
+Passed: 317
 Disabled: 4
 Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 87312.196000
+time-taken-seconds: 8402.512000
