@@ -37,7 +37,7 @@ C:\clay-autobuild\compiler\src\desugar.cpp(75) : warning C4018: '<' : signed/uns
 [0mloader.cpp
 [ 66%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/main.cpp.obj
 [0mmain.cpp
-C:\clay-autobuild\compiler\src\main.cpp(144) : warning C4800: 'llvm::CodeGenOpt::Level' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\src\main.cpp(224) : warning C4800: 'llvm::CodeGenOpt::Level' : forcing value to bool 'true' or 'false' (performance warning)
 [ 70%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/matchinvoke.cpp.obj
 [0mmatchinvoke.cpp
 [ 75%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/objects.cpp.obj

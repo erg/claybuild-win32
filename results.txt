@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@30190f4c9f2b5ec8784589fabacc140d55c543ab (2012-08-20 07:12:32 -0700)
+version: jckarter/clay@efe4c538fdf35aefcec2048624751bd700799bad (2012-09-12 11:38:39 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -19,339 +19,339 @@ bits: 32
 exe: C:\clay-autobuild\test\..\build\compiler\src\clay.exe
 
 [Tests]
-algorithms: ok
-algorithms\count: ok
-algorithms\permutations: ok
-algorithms\sorting: ok
-algorithms\strings: ok
-any: ok
-arrays: ok
-arrays\arrayref: ok
-arrays\indexing\1: ok
-atomic\primitives: ok
-bindings\ref\1: ok
-bindings\variadic: ok
-byteorder: ok
-callbyname\arg: ok
-callbyname\fileLineColumn: ok
-characters\1: ok
-claydoc: ok
-codepointers\1: ok
-codepointers\2: ok
-codepointers\3: ok
-codepointers\30: ok
-codepointers\31: ok
-codepointers\32: ok
-commandline\1: ok
-commandline\dispatch: ok
-commandline\options: ok
-comparators: ok
-computedrecords\1: ok
-computedrecords\2: ok
-computedrecords\custompredicate: ok
-computedrecords\customproperty: ok
-coordinates: ok
-core\errors\staticassert\neg: ok
-core\errors\staticassert\pos: ok
-core\stringrefs: ok
-crypto\digest\md5: exit code 3
-crypto\digest\sha2: exit code 3
-defaultarguments: ok
-deques: ok
-deques\memory: ok
-destructors: ok
-dispatch: ok
-enums\predicates: ok
-eval\expr: ok
-eval\statements: ok
-evaluator\1: ok
-exceptions\1: ok
-exceptions\2: ok
-exceptions\3: ok
-exceptions\arrays: ok
-exceptions\catch: ok
-exceptions\custom: ok
-exceptions\finally: ok
-exceptions\finally\goto: ok
-exceptions\lambdas: ok
-exceptions\onerror: ok
-exceptions\vectors: ok
-externals: ok
-externals\abi\common: ok
-externals\ccast: ok
-externals\makeexternalcodepointer: ok
-externals\recursiveccodepointer: ok
-externals\recursivecodepointer: ok
-fileio\27: ok
-fileio\28: ok
-fileio\29: ok
-flags: ok
-floats: ok
-floats\literals: ok
-floats\parts: ok
-getoverload: ok
-globalalias\1: ok
-globalalias\predicates\1: ok
-globalalias\predicates\2: ok
-globalvariables\ctorsdtors: ok
-globalvariables\predicates\1: ok
-globalvariables\predicates\2: ok
-hash\scalars: ok
-hash\variants: ok
-hashmaps: ok
-hashmaps\rvalueiteration: ok
-hashmaps\valueinitialization: ok
-interfaces: ok
-interfaces\constructors\1: ok
-interfaces\constructors\2: ok
-interfaces\constructors\3: ok
-interfaces\outputmismatch\1: ok
-interfaces\outputmismatch\2: ok
-io\directories: ok
-io\files\raw: ok
-io\paths: ok
-io\sockets\addresses: ok
-io\sockets\connections: ok
-io\sockets\reading: ok
-io\sockets\valuesemantics: ok
-io\streams\ascollections: ok
-io\streams\buffered: ok
-io\streams\bytevector: ok
-io\streams\memory: ok
-io\temp: ok
-keywordarguments: ok
-lambdas\alias\1: disabled
-lambdas\alias\2: disabled
-lambdas\alias\3: disabled
-lambdas\argsyntax: ok
-lambdas\basic: ok
-lambdas\calldefined: ok
-lambdas\calloutputtypes: ok
-lambdas\callsugar: ok
-lambdas\dynamic: ok
-lambdas\dynamic\makelambda: ok
-lambdas\mono: ok
-lambdas\monoinputtypes: ok
-lambdas\papply: ok
-lambdas\stateless: ok
-lambdas\vararg: ok
-libc\setjmplongjmp: ok
-llvm\1: ok
-llvm\2: ok
-llvm\3: ok
-llvm\4: ok
-llvm\intrinsics\sse\1: ok
-math\complex: ok
-math\libm: ok
-math\native: ok
-memory\allocateArray: ok
-memory\copy: ok
-memory\zeroObject: ok
-modules\attributes\literaltypes: ok
-modules\imports\aliasqualified: ok
-modules\imports\ambiguous1: ok
-modules\imports\ambiguous2: ok
-modules\imports\ambiguous3: ok
-modules\imports\ambiguous4: ok
-modules\imports\ambiguous5: ok
-modules\imports\collision1: ok
-modules\imports\collision2: ok
-modules\imports\disambiguated1: ok
-modules\imports\disambiguated2: ok
-modules\imports\disambiguated3: ok
-modules\imports\issue266: ok
-modules\imports\suggest: ok
-modules\introspection: ok
-modules\name: ok
-monads: ok
-multivalues\assignmismatch\1: ok
-multivalues\assignmismatch\2: ok
-multivalues\assignmismatch\3: ok
-multivalues\assignmismatch\4: ok
-multivalues\assignmismatch\5: ok
-multivalues\binding: ok
-multivalues\bindingmismatch\1: ok
-multivalues\bindingmismatch\2: ok
-multivalues\bindingmismatch\3: ok
-multivalues\bindingmismatch\4: ok
-multivalues\bindingmismatch\5: ok
-numbers: ok
-numbers\conversion: ok
-numbers\literals\toolarge: ok
-numbers\literals\toolarge2: ok
-numbers\octal: ok
-numbers\overflow: ok
-numbers\parser\1: ok
-numbers\parser\2: ok
-numbers\parser\3: ok
-numbers\parser\4: ok
-numbers\quotient: ok
-operators\bitwise: ok
-operators\comparison: ok
-operators\custom: ok
-operators\custom2: ok
-operators\extendedassignment: ok
-operators\extendedassignment\butnottooextended1: ok
-operators\extendedassignment\butnottooextended2: ok
-operators\extendedassignment2: ok
-operators\pod: ok
-operators\pod\initializers: ok
-operators\precedence: ok
-operators\proxyassignment: ok
-overloads\patterncallable: ok
-overloads\withinterface: ok
-paged\35: ok
-paged\36: ok
-paged\37: ok
-paged\38: ok
-parsing: ok
-parsing\calculator: ok
-parsing\combinators\generic: ok
-parsing\combinators\strings: ok
-patterns: ok
-patterns\arguments: ok
-permissive: ok
-platform: ok
-pointers\indexing\1: ok
-printing\1: ok
-printing\formatting: ok
-printing\hideioerror: ok
-printing\nan: ok
-printing\observe: ok
-printing\repr: ok
-privateimports: ok
-queues: ok
-random: ok
-records\initialization: ok
-records\predicates: ok
-referencetypes: ok
-remote\marshaling: ok
-remote\messages\simple: ok
-returntypes\analyzer: ok
-returntypes\implicit: ok
-returntypes\spec: ok
-sequences\1: ok
-sequences\2: ok
-sequences\3: ok
-sequences\4: ok
-sequences\5: ok
-sequences\6: ok
-sequences\7: ok
-sequences\arrayassignment: ok
-sequences\arrayinitialization: ok
-sequences\buffervector: ok
-sequences\concatenation: ok
-sequences\force: ok
-sequences\group: ok
-sequences\maybe: ok
-sequences\multivalued: ok
-sequences\operators: ok
-sequences\overloadpriority: ok
-sequences\predicates: ok
-sequences\ranges: ok
-sequences\staticsized: ok
-sequences\strict: ok
-shootout\insertionsort1: ok
-shootout\insertionsort2: ok
-shootout\mean: ok
-shootout\quicksort1: ok
-shootout\quicksort2: ok
-simd: ok
-simd\invalidtypes: ok
-simd\optimizationbug1: ok
-statementexpressions\if\1: ok
-statementexpressions\if\2: ok
-statementexpressions\switch\1: ok
-statementexpressions\while\1: ok
-statementexpressions\while\2: ok
-staticname: ok
-stringliterals: ok
-stringliterals\strl: ok
-strings: ok
-strings\encodings\utf8: ok
-strings\triplequoting: ok
-test\1: ok
-test\repr: ok
-time: ok
-tuples\1: ok
-tuples\emptytuple: ok
-tuples\single\1: ok
-tuples\single\2: disabled
-tuples\staticindexing: ok
-tuples\types: ok
-twohash: ok
-types\valueSize: ok
-uncategorized\1: ok
-uncategorized\10: ok
-uncategorized\11: ok
-uncategorized\12: ok
-uncategorized\13: ok
-uncategorized\14: ok
-uncategorized\15: ok
-uncategorized\16: ok
-uncategorized\17: ok
-uncategorized\18: ok
-uncategorized\19: ok
-uncategorized\2: ok
-uncategorized\20: ok
-uncategorized\21: ok
-uncategorized\22: ok
-uncategorized\24: ok
-uncategorized\3: ok
-uncategorized\33: ok
-uncategorized\34: ok
-uncategorized\39: ok
-uncategorized\4: ok
-uncategorized\40: ok
-uncategorized\41: ok
-uncategorized\42: ok
-uncategorized\44: ok
-uncategorized\45: ok
-uncategorized\46: ok
-uncategorized\5: ok
-uncategorized\6: ok
-uncategorized\8: ok
-uncategorized\9: ok
-uncategorized\ifexpr: ok
-uncategorized\memory: ok
-uncategorized\namedunions: ok
-uncategorized\staticfor_forwarded: ok
-uncategorized\switch: ok
-uncategorized\switch\multivalue: ok
-uncategorized\switch\strings: ok
-uncategorized\throwingbranches: ok
-unions: ok
-uniquepointers: ok
-uniquepointers\uniquevalues: ok
-values\1: ok
-valuesemantics: ok
-variants\1: ok
-variants\2: ok
-variants\3: ok
-variants\4: ok
-variants\5: ok
-variants\dispatch\callbyname: ok
-variants\empty: ok
-variants\equality: ok
-variants\initialization: ok
-variants\match: ok
-variants\maybe: ok
-variants\nested: ok
-variants\predicates: ok
-variants\recursive\1: ok
-variants\recursive\2: ok
-variants\subgraphassignment: ok
-variants\variantref: ok
+algorithms: ok (0.901000s)
+algorithms\count: ok (0.571000s)
+algorithms\permutations: ok (2.083000s)
+algorithms\sorting: ok (2.323000s)
+algorithms\strings: ok (1.923000s)
+any: ok (0.631000s)
+arrays: ok (0.591000s)
+atomic\primitives: ok (0.470000s)
+bindings\ref\1: ok (0.060000s)
+bindings\variadic: ok (0.561000s)
+byteorder: ok (2.764000s)
+callbyname\arg: ok (0.501000s)
+callbyname\fileLineColumn: ok (0.531000s)
+characters\1: ok (2.023000s)
+claydoc: ok (0.160000s)
+codepointers\1: ok (0.531000s)
+codepointers\2: ok (0.490000s)
+codepointers\3: ok (0.181000s)
+codepointers\30: ok (0.560000s)
+codepointers\31: ok (0.571000s)
+codepointers\32: ok (0.621000s)
+commandline\1: ok (0.541000s)
+commandline\dispatch: ok (1.091000s)
+commandline\options: ok (2.744000s)
+comparators: ok (1.953000s)
+computedrecords\1: ok (0.481000s)
+computedrecords\2: ok (0.511000s)
+computedrecords\custompredicate: ok (0.500000s)
+computedrecords\customproperty: ok (0.501000s)
+coordinates: ok (0.581000s)
+core\errors\staticassert\neg: ok (0.070000s)
+core\errors\staticassert\pos: ok (0.461000s)
+core\platform: ok (0.460000s)
+core\stringrefs: ok (1.923000s)
+crypto\digest\md5: exit code 3 (4.537000s)
+crypto\digest\sha2: exit code 3 (4.506000s)
+defaultarguments: ok (0.501000s)
+deques: ok (1.192000s)
+deques\memory: ok (1.161000s)
+destructors: ok (0.471000s)
+dispatch: ok (0.471000s)
+enums\predicates: ok (0.270000s)
+eval\expr: ok (0.491000s)
+eval\statements: ok (0.470000s)
+evaluator\1: ok (0.501000s)
+exceptions\1: ok (0.471000s)
+exceptions\2: ok (0.480000s)
+exceptions\3: ok (0.471000s)
+exceptions\arrays: ok (0.661000s)
+exceptions\catch: ok (0.631000s)
+exceptions\custom: ok (0.581000s)
+exceptions\finally: ok (0.581000s)
+exceptions\finally\goto: ok (0.470000s)
+exceptions\lambdas: ok (0.491000s)
+exceptions\onerror: ok (0.611000s)
+exceptions\unhandled\core: ok (0.180000s)
+exceptions\unhandled\printer: ok (0.491000s)
+exceptions\vectors: ok (0.741000s)
+externals: ok (0.561000s)
+externals\abi\common: ok (1.232000s)
+externals\ccast: ok (0.480000s)
+externals\makeexternalcodepointer: ok (0.471000s)
+externals\recursiveccodepointer: ok (0.420000s)
+externals\recursivecodepointer: ok (0.461000s)
+fileio\27: ok (0.661000s)
+fileio\28: ok (0.651000s)
+fileio\29: ok (0.951000s)
+flags: ok (0.511000s)
+floats: ok (0.801000s)
+floats\literals: ok (0.521000s)
+floats\parts: ok (0.581000s)
+getoverload: ok (0.491000s)
+globalalias\1: ok (0.470000s)
+globalalias\predicates\1: ok (0.281000s)
+globalalias\predicates\2: ok (0.300000s)
+globalvariables\ctorsdtors: ok (0.160000s)
+globalvariables\predicates\1: ok (0.281000s)
+globalvariables\predicates\2: ok (0.270000s)
+hash\scalars: ok (0.511000s)
+hash\variants: ok (0.481000s)
+hashmaps: ok (0.931000s)
+hashmaps\rvalueiteration: ok (0.761000s)
+hashmaps\valueinitialization: ok (0.821000s)
+interfaces: ok (0.681000s)
+interfaces\constructors\1: ok (0.060000s)
+interfaces\constructors\2: ok (0.070000s)
+interfaces\constructors\3: ok (0.060000s)
+interfaces\outputmismatch\1: ok (0.221000s)
+interfaces\outputmismatch\2: ok (0.280000s)
+io\directories: ok (1.873000s)
+io\files\raw: ok (1.822000s)
+io\paths: ok (5.809000s)
+io\sockets\addresses: ok (2.263000s)
+io\sockets\connections: ok (3.125000s)
+io\sockets\reading: ok (1.181000s)
+io\sockets\valuesemantics: ok (0.671000s)
+io\streams\ascollections: ok (1.933000s)
+io\streams\buffered: ok (2.093000s)
+io\streams\bytevector: ok (1.863000s)
+io\streams\memory: ok (2.043000s)
+io\temp: ok (1.822000s)
+keywordarguments: ok (0.521000s)
+lambdas\alias\1: disabled (0.000000s)
+lambdas\alias\2: disabled (0.000000s)
+lambdas\alias\3: disabled (0.000000s)
+lambdas\argsyntax: ok (0.461000s)
+lambdas\basic: ok (0.500000s)
+lambdas\calldefined: ok (0.471000s)
+lambdas\calloutputtypes: ok (0.501000s)
+lambdas\callsugar: ok (0.460000s)
+lambdas\dynamic: ok (0.641000s)
+lambdas\dynamic\makelambda: ok (0.501000s)
+lambdas\mono: ok (0.551000s)
+lambdas\monoinputtypes: ok (0.521000s)
+lambdas\papply: ok (0.470000s)
+lambdas\stateless: ok (0.501000s)
+lambdas\vararg: ok (0.661000s)
+libc\setjmplongjmp: ok (0.481000s)
+llvm\1: ok (0.460000s)
+llvm\2: ok (0.521000s)
+llvm\3: ok (0.451000s)
+llvm\4: ok (0.480000s)
+llvm\intrinsics\sse\1: ok (0.471000s)
+math\complex: ok (2.434000s)
+math\libm: ok (0.671000s)
+math\native: ok (3.254000s)
+memory\allocateArray: ok (0.571000s)
+memory\copy: ok (0.541000s)
+memory\zeroObject: ok (0.481000s)
+modules\attributes\literaltypes: ok (0.490000s)
+modules\imports\aliasqualified: ok (0.451000s)
+modules\imports\ambiguous1: ok (0.220000s)
+modules\imports\ambiguous2: ok (0.281000s)
+modules\imports\ambiguous3: ok (0.080000s)
+modules\imports\ambiguous4: ok (0.210000s)
+modules\imports\ambiguous5: ok (0.220000s)
+modules\imports\collision1: ok (0.221000s)
+modules\imports\collision2: ok (0.220000s)
+modules\imports\disambiguated1: ok (0.451000s)
+modules\imports\disambiguated2: ok (0.450000s)
+modules\imports\disambiguated3: ok (0.461000s)
+modules\imports\issue266: ok (0.140000s)
+modules\imports\suggest: ok (0.080000s)
+modules\introspection: ok (0.521000s)
+modules\name: ok (0.551000s)
+monads: ok (0.460000s)
+multivalues\assignmismatch\1: ok (0.071000s)
+multivalues\assignmismatch\2: ok (0.060000s)
+multivalues\assignmismatch\3: ok (0.060000s)
+multivalues\assignmismatch\4: ok (0.070000s)
+multivalues\assignmismatch\5: ok (0.060000s)
+multivalues\binding: ok (0.511000s)
+multivalues\bindingmismatch\1: ok (0.060000s)
+multivalues\bindingmismatch\2: ok (0.060000s)
+multivalues\bindingmismatch\3: ok (0.060000s)
+multivalues\bindingmismatch\4: ok (0.060000s)
+multivalues\bindingmismatch\5: ok (0.060000s)
+numbers: ok (2.263000s)
+numbers\conversion: ok (0.551000s)
+numbers\literals\toolarge: ok (0.060000s)
+numbers\literals\toolarge2: ok (0.060000s)
+numbers\octal: ok (0.501000s)
+numbers\overflow: ok (0.741000s)
+numbers\parser\1: ok (0.811000s)
+numbers\parser\2: ok (0.691000s)
+numbers\parser\3: ok (0.691000s)
+numbers\parser\4: ok (0.701000s)
+numbers\quotient: ok (0.471000s)
+operators\bitwise: ok (0.481000s)
+operators\comparison: ok (0.470000s)
+operators\custom: ok (0.501000s)
+operators\custom2: ok (0.611000s)
+operators\extendedassignment: ok (0.511000s)
+operators\extendedassignment\butnottooextended1: ok (0.060000s)
+operators\extendedassignment\butnottooextended2: ok (0.080000s)
+operators\extendedassignment2: ok (0.531000s)
+operators\pod: ok (1.912000s)
+operators\pod\initializers: ok (0.601000s)
+operators\precedence: ok (0.531000s)
+operators\proxyassignment: ok (0.481000s)
+overloads\patterncallable: ok (0.490000s)
+overloads\withinterface: ok (0.471000s)
+paged\35: ok (1.052000s)
+paged\36: ok (1.051000s)
+paged\37: ok (0.841000s)
+paged\38: ok (0.932000s)
+parsing: ok (0.931000s)
+parsing\calculator: ok (0.941000s)
+parsing\combinators\generic: ok (2.404000s)
+parsing\combinators\strings: ok (1.943000s)
+patterns: ok (0.520000s)
+patterns\arguments: ok (0.461000s)
+permissive: ok (0.481000s)
+pointers\indexing\1: ok (0.500000s)
+printing\1: ok (2.083000s)
+printing\formatting: ok (2.504000s)
+printing\hideioerror: ok (1.813000s)
+printing\nan: ok (0.520000s)
+printing\observe: ok (0.691000s)
+printing\repr: ok (3.666000s)
+privateimports: ok (0.470000s)
+queues: ok (2.203000s)
+random: ok (2.023000s)
+records\initialization: ok (0.501000s)
+records\predicates: ok (0.290000s)
+referencetypes: ok (0.501000s)
+remote\marshaling: ok (6.730000s)
+remote\messages\simple: ok (1.292000s)
+returntypes\analyzer: ok (0.490000s)
+returntypes\implicit: ok (0.141000s)
+returntypes\spec: ok (0.490000s)
+sequences\1: ok (0.511000s)
+sequences\2: ok (0.541000s)
+sequences\3: ok (0.601000s)
+sequences\4: ok (0.891000s)
+sequences\5: ok (0.731000s)
+sequences\6: ok (0.841000s)
+sequences\7: ok (0.541000s)
+sequences\arrayassignment: ok (0.511000s)
+sequences\arrayinitialization: ok (0.460000s)
+sequences\buffervector: ok (0.561000s)
+sequences\concatenation: ok (0.571000s)
+sequences\force: ok (0.781000s)
+sequences\group: ok (2.324000s)
+sequences\maybe: ok (1.902000s)
+sequences\multivalued: ok (0.671000s)
+sequences\operators: ok (1.833000s)
+sequences\overloadpriority: ok (1.802000s)
+sequences\predicates: ok (0.711000s)
+sequences\ranges: ok (0.681000s)
+sequences\staticsized: ok (0.521000s)
+sequences\strict: ok (0.681000s)
+shootout\insertionsort1: ok (7.060000s)
+shootout\insertionsort2: ok (4.697000s)
+shootout\mean: ok (7.261000s)
+shootout\quicksort1: ok (7.260000s)
+shootout\quicksort2: ok (6.159000s)
+simd: ok (0.891000s)
+simd\invalidtypes: ok (0.210000s)
+simd\optimizationbug1: ok (0.561000s)
+statementexpressions\if\1: ok (0.481000s)
+statementexpressions\if\2: ok (0.671000s)
+statementexpressions\switch\1: ok (0.481000s)
+statementexpressions\while\1: ok (0.490000s)
+statementexpressions\while\2: ok (0.681000s)
+staticname: ok (0.561000s)
+stringliterals: ok (0.651000s)
+stringliterals\strl: ok (0.471000s)
+strings: ok (0.480000s)
+strings\encodings\utf8: ok (2.624000s)
+strings\triplequoting: ok (0.471000s)
+test\1: ok (2.293000s)
+test\repr: ok (2.023000s)
+time: ok (0.361000s)
+tuples\1: ok (0.480000s)
+tuples\emptytuple: ok (0.491000s)
+tuples\single\1: ok (0.461000s)
+tuples\single\2: ok (0.480000s)
+tuples\staticindexing: ok (0.451000s)
+tuples\types: ok (0.471000s)
+twohash: ok (4.616000s)
+types\valueSize: ok (0.461000s)
+uncategorized\1: ok (0.501000s)
+uncategorized\10: ok (0.520000s)
+uncategorized\11: ok (0.511000s)
+uncategorized\12: ok (0.541000s)
+uncategorized\13: ok (0.491000s)
+uncategorized\14: ok (0.510000s)
+uncategorized\15: ok (0.501000s)
+uncategorized\16: ok (0.461000s)
+uncategorized\17: ok (0.470000s)
+uncategorized\18: ok (0.531000s)
+uncategorized\19: ok (0.461000s)
+uncategorized\2: ok (0.470000s)
+uncategorized\20: ok (0.481000s)
+uncategorized\21: ok (0.521000s)
+uncategorized\22: ok (0.461000s)
+uncategorized\24: ok (0.510000s)
+uncategorized\3: ok (0.571000s)
+uncategorized\33: ok (0.471000s)
+uncategorized\34: ok (0.410000s)
+uncategorized\39: ok (0.671000s)
+uncategorized\4: ok (0.481000s)
+uncategorized\40: ok (0.551000s)
+uncategorized\41: ok (0.931000s)
+uncategorized\42: ok (0.481000s)
+uncategorized\44: ok (0.471000s)
+uncategorized\45: ok (0.510000s)
+uncategorized\46: ok (0.481000s)
+uncategorized\5: ok (0.471000s)
+uncategorized\6: ok (0.470000s)
+uncategorized\8: ok (0.541000s)
+uncategorized\9: ok (0.481000s)
+uncategorized\ifexpr: ok (0.491000s)
+uncategorized\memory: ok (0.520000s)
+uncategorized\namedunions: ok (0.471000s)
+uncategorized\staticfor_forwarded: ok (0.521000s)
+uncategorized\switch: ok (0.560000s)
+uncategorized\switch\multivalue: ok (0.471000s)
+uncategorized\switch\strings: ok (0.661000s)
+uncategorized\throwingbranches: ok (0.541000s)
+unions: ok (0.521000s)
+uniquepointers: ok (0.751000s)
+uniquepointers\uniquevalues: ok (0.741000s)
+values\1: ok (2.874000s)
+valuesemantics: ok (0.551000s)
+variants\1: ok (0.530000s)
+variants\2: ok (0.511000s)
+variants\3: ok (0.561000s)
+variants\4: ok (0.551000s)
+variants\5: ok (0.470000s)
+variants\dispatch\callbyname: ok (0.481000s)
+variants\empty: ok (0.060000s)
+variants\equality: ok (0.521000s)
+variants\initialization: ok (0.491000s)
+variants\match: ok (0.510000s)
+variants\maybe: ok (0.691000s)
+variants\nested: ok (0.571000s)
+variants\predicates: ok (0.501000s)
+variants\recursive\1: ok (1.743000s)
+variants\recursive\2: ok (0.530000s)
+variants\subgraphassignment: ok (0.721000s)
+variants\variantref: ok (0.561000s)
 
 [Failed]
 crypto\digest\md5: exit code 3
 crypto\digest\sha2: exit code 3
 
 [Summary]
-Passed: 317
-Disabled: 4
+Passed: 318
+Disabled: 3
 Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 8402.512000
+time-taken-seconds: 283.217000
