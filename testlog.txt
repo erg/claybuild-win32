@@ -1,16 +1,15 @@
 
-[crypto\digest\md5]
-Failure: exit code 3
-Stdout:
- Testing md5:
-   md5:
-Stderr:
- 
-
-[crypto\digest\sha2]
-Failure: exit code 3
-Stdout:
- Testing sha2:
-   sha256:
-Stderr:
- 
+[numbers\overflow]
+Failure: out.txt mismatch
+Diff-Stdout:
+ --- out.txt
+ +++ stdout
+ @@ -27,7 +27,7 @@
+  false
+  true
+  false
+ -true
+ +false
+  false
+  false
+  
