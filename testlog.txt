@@ -1,5 +1,5 @@
 
-[numbers\overflow]
+[lib-clay\core\numbers\overflow]
 Failure: out.txt mismatch
 Diff-Stdout:
  --- out.txt

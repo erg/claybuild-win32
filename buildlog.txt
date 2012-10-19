@@ -1,57 +1,88 @@
-[  4%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/analyzer.cpp.obj
+[  4%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/analyzer.cpp.obj
 [0manalyzer.cpp
-[  8%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/clone.cpp.obj
+C:\clay-autobuild\compiler\analyzer.cpp(18) : warning C4068: unknown pragma
+C:\clay-autobuild\compiler\analyzer.cpp(2027) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\analyzer.cpp(2034) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\analyzer.cpp(2040) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\analyzer.cpp(2177) : warning C4805: '!=' : unsafe mix of type 'bool' and type 'unsigned char' in operation
+[  8%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/clone.cpp.obj
 [0mclone.cpp
-[ 12%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/codegen.cpp.obj
+C:\clay-autobuild\compiler\clone.cpp(5) : warning C4068: unknown pragma
+[ 12%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/codegen.cpp.obj
 [0mcodegen.cpp
-C:\clay-autobuild\compiler\src\codegen.cpp(1600) : warning C4800: 'llvm::Function *' : forcing value to bool 'true' or 'false' (performance warning)
-C:\clay-autobuild\compiler\src\codegen.cpp(2913) : warning C4800: 'llvm::Function *' : forcing value to bool 'true' or 'false' (performance warning)
-[ 16%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/constructors.cpp.obj
+C:\clay-autobuild\compiler\codegen.cpp(17) : warning C4068: unknown pragma
+C:\clay-autobuild\compiler\codegen.cpp(1619) : warning C4800: 'llvm::Function *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\codegen.cpp(2933) : warning C4800: 'llvm::Function *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\codegen.cpp(2968) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\codegen.cpp(3012) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\codegen.cpp(3044) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\codegen.cpp(3086) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\codegen.cpp(3303) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\codegen.cpp(3312) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\codegen.cpp(3319) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\codegen.cpp(3328) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+[ 16%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/constructors.cpp.obj
 [0mconstructors.cpp
-[ 20%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/desugar.cpp.obj
+[ 20%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/desugar.cpp.obj
 [0mdesugar.cpp
-C:\clay-autobuild\compiler\src\desugar.cpp(75) : warning C4018: '<' : signed/unsigned mismatch
-[ 25%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/env.cpp.obj
+[ 24%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/env.cpp.obj
 [0menv.cpp
-[ 29%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/error.cpp.obj
+[ 28%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/error.cpp.obj
 [0merror.cpp
-[ 33%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/evaluator.cpp.obj
+[ 32%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/evaluator.cpp.obj
 [0mevaluator.cpp
-C:\clay-autobuild\compiler\src\evaluator.cpp(351) : warning C4018: '<' : signed/unsigned mismatch
-[ 37%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/externals.cpp.obj
+C:\clay-autobuild\compiler\evaluator.cpp(15) : warning C4068: unknown pragma
+C:\clay-autobuild\compiler\evaluator.cpp(1830) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\evaluator.cpp(1839) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\evaluator.cpp(1846) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\evaluator.cpp(1854) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\evaluator.cpp(3030) : warning C4068: unknown pragma
+C:\clay-autobuild\compiler\evaluator.cpp(3031) : warning C4068: unknown pragma
+C:\clay-autobuild\compiler\evaluator.cpp(3059) : warning C4068: unknown pragma
+[ 36%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/externals.cpp.obj
 [0mexternals.cpp
-[ 41%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/hirestimer.cpp.obj
+C:\clay-autobuild\compiler\externals.cpp(6) : warning C4068: unknown pragma
+[ 40%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/hirestimer.cpp.obj
 [0mhirestimer.cpp
-[ 45%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/invoketables.cpp.obj
+[ 44%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/interactive.cpp.obj
+[0minteractive.cpp
+[ 48%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/invoketables.cpp.obj
 [0minvoketables.cpp
-[ 50%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/lambdas.cpp.obj
+C:\clay-autobuild\compiler\invoketables.cpp(8) : warning C4068: unknown pragma
+[ 52%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/lambdas.cpp.obj
 [0mlambdas.cpp
-[ 54%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/lexer.cpp.obj
+[ 56%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/lexer.cpp.obj
 [0mlexer.cpp
-[ 58%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/literals.cpp.obj
+[ 60%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/literals.cpp.obj
 [0mliterals.cpp
-[ 62%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/loader.cpp.obj
+[ 64%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/loader.cpp.obj
 [0mloader.cpp
-[ 66%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/main.cpp.obj
-[0mmain.cpp
-C:\clay-autobuild\compiler\src\main.cpp(224) : warning C4800: 'llvm::CodeGenOpt::Level' : forcing value to bool 'true' or 'false' (performance warning)
-[ 70%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/matchinvoke.cpp.obj
+C:\clay-autobuild\compiler\loader.cpp(10) : warning C4068: unknown pragma
+[ 68%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/matchinvoke.cpp.obj
 [0mmatchinvoke.cpp
-[ 75%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/objects.cpp.obj
+[ 72%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/objects.cpp.obj
 [0mobjects.cpp
-C:\clay-autobuild\compiler\src\objects.cpp(101) : warning C4018: '<' : signed/unsigned mismatch
-[ 79%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/parachute.cpp.obj
+[ 76%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/parachute.cpp.obj
 [0mparachute.cpp
-[ 83%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/parser.cpp.obj
+[ 80%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/parser.cpp.obj
 [0mparser.cpp
-[ 87%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/patterns.cpp.obj
+[ 84%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/patterns.cpp.obj
 [0mpatterns.cpp
-[ 91%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/printer.cpp.obj
+C:\clay-autobuild\compiler\patterns.cpp(10) : warning C4068: unknown pragma
+[ 88%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/printer.cpp.obj
 [0mprinter.cpp
-[ 95%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/profiler.cpp.obj
+C:\clay-autobuild\compiler\printer.cpp(9) : warning C4068: unknown pragma
+[ 92%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/profiler.cpp.obj
 [0mprofiler.cpp
-[100%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/types.cpp.obj
+[ 96%] [32mBuilding CXX object compiler/CMakeFiles/compiler.dir/types.cpp.obj
 [0mtypes.cpp
+C:\clay-autobuild\compiler\types.cpp(12) : warning C4068: unknown pragma
+[31m[1mLinking CXX static library compiler.lib
+[0m[ 96%] Built target compiler
+[35m[1mScanning dependencies of target clay
+[0m[100%] [32mBuilding CXX object compiler/CMakeFiles/clay.dir/clay.cpp.obj
+[0mclay.cpp
+C:\clay-autobuild\compiler\clay.cpp(295) : warning C4800: 'llvm::CodeGenOpt::Level' : forcing value to bool 'true' or 'false' (performance warning)
 [31m[1mLinking CXX executable clay.exe
 [0m   Creating library clay.lib and object clay.exp
 [100%] Built target clay
