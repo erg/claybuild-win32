@@ -79,8 +79,7 @@ C:\clay-autobuild\compiler\printer.cpp(9) : warning C4068: unknown pragma
 C:\clay-autobuild\compiler\types.cpp(12) : warning C4068: unknown pragma
 [31m[1mLinking CXX static library compiler.lib
 [0m[ 96%] Built target compiler
-[35m[1mScanning dependencies of target clay
-[0m[100%] [32mBuilding CXX object compiler/CMakeFiles/clay.dir/clay.cpp.obj
+[100%] [32mBuilding CXX object compiler/CMakeFiles/clay.dir/clay.cpp.obj
 [0mclay.cpp
 C:\clay-autobuild\compiler\clay.cpp(295) : warning C4800: 'llvm::CodeGenOpt::Level' : forcing value to bool 'true' or 'false' (performance warning)
 [31m[1mLinking CXX executable clay.exe
